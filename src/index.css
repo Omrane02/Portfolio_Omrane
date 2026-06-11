@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom palette colors matching the Sophisticated Warmth theme specs */
+  --color-warm-bg: #fff8f5;
+  --color-warm-dim: #f2d4c2;
+  --color-warm-bright: #fff8f5;
+  --color-warm-lowest: #ffffff;
+  --color-warm-low: #fff1ea;
+  --color-warm-container: #ffeade;
+  --color-warm-high: #ffe3d2;
+  --color-warm-highest: #fbddca;
+  --color-warm-dark: #28180d;
+  --color-warm-variant: #5a403c;
+  --color-warm-outline: #8e706b;
+  --color-warm-outline-variant: #e3beb8;
+  --color-warm-tint: #b52619;
+  --color-warm-primary: #610000;
+  --color-warm-secondary: #705a4c;
+  --color-warm-secondary-container: #f8dac8;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-warm-bg);
+    color: var(--color-warm-dark);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Portfolio Omrane Riahi",
+  "description": "Portfolio professionnel de Omrane Riahi, étudiant en génie logiciel, doté d'un assistant de recrutement propulsé par l'IA Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
